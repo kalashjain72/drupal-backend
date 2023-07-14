@@ -1,0 +1,7 @@
+hello_user.example:
+  path: '/hello-user'
+  defaults:
+    _title: 'hello user'
+    _controller: '\Drupal\hello_user\Controller\HelloUserController'
+  requirements:
+    _permission: 'access content'
