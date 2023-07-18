@@ -1,0 +1,5 @@
+name: custom form 2
+type: module
+description: this module is used to create custom form and validate info with ajex
+package: Custom
+core_version_requirement: ^9 || ^10
