@@ -63,22 +63,20 @@ class SettingsForm extends ConfigFormBase {
   public function generateOneTimeLoginLink(array &$form, FormStateInterface $form_state) {
     $response = new AjaxResponse();
     $user_id = $form_state->getValue('user_id');
-    var_dump($user_id);
-    exit();
+    
     $account = User::load($user_id);
 
-    $user = $account->get('name')->value;
-
+    
     $flag = FALSE;
-    if (is_null($user)) {
+    if (is_null($account)) {
       $message = 'User not exists.';
     }
     else {
-      $result = user_pass_reset_url($user) . '/login';
+      
+      $result = user_pass_reset_url($account) . '/login';
       $flag = TRUE;
     }
     if ($flag) {
-      var_dump($result);
       $response->addCommand(new HtmlCommand('#link-status', $result));
       $response->addCommand(new CssCommand('#link-status', ['color' => 'green']));
     }
