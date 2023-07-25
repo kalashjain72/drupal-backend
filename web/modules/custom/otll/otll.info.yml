@@ -1,0 +1,5 @@
+name: otll
+type: module
+description: Based on the user id one time login link will generate.
+package: Custom
+core_version_requirement: ^9 || ^10

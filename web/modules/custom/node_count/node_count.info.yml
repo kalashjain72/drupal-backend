@@ -1,0 +1,5 @@
+name: node_count
+type: module
+description: this module is used to count the number of time you have visited the node
+package: Custom
+core_version_requirement: ^9 || ^10
