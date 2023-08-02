@@ -1,0 +1,7 @@
+otll.settings_form:
+  path: '/admin/config/system/otll'
+  defaults:
+    _title: 'otll settings'
+    _form: 'Drupal\otll\Form\SettingsForm'
+  requirements:
+    _permission: 'administer otll configuration'
