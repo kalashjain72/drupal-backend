@@ -1,0 +1,5 @@
+name: routing system
+type: module
+description: this module is used to illustrate the routing system in drupal
+package: Custom
+core_version_requirement: ^9 || ^10
