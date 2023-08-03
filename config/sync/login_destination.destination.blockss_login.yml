@@ -1,0 +1,15 @@
+uuid: f0162bb1-a3f0-44a7-97f7-78a8082ba5c9
+langcode: en
+status: true
+dependencies: {  }
+name: blockss_login
+label: 'blockss login'
+triggers:
+  login: login
+destination_path: 'internal:/custom-welcome-page'
+pages_type: 0
+pages: ''
+language: ''
+roles: {  }
+weight: 0
+enabled: false

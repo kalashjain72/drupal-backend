@@ -843,4 +843,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_z2h2SB1TemzL3YpueM0Wi7Wo3R3hpCtICZGGhcEWGq4jyoHsmKzZMpguwwVCEqNA1P4z7Wpbcg/sync';
+$settings['config_sync_directory'] = '../config/sync';
