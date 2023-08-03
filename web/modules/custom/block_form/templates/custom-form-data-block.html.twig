@@ -1,0 +1,18 @@
+{# This is the template file for rendering the custom form data block. #}
+{% if content is not empty %}
+  <div class="custom-form-data-block">
+    {% for group in content %}
+      <div class="group">
+        <div class="group-name">{{ group.group_name }}</div>
+        <div class="label-1">{{ group.label_1 }}</div>
+        <div class="label-1-value">{{ group.label_1_value }}</div>
+        <div class="label-2">{{ group.label_2 }}</div>
+        <div class="label-2-value">{{ group.label_2_value }}</div>
+      </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <div class="custom-form-data-block empty">
+    {{ 'No data available.' }}
+  </div>
+{% endif %}

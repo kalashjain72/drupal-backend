@@ -1,0 +1,6 @@
+otll.settings_form:
+  title: 'otll'
+  description: 'Configure otll.'
+  parent: system.admin_config_system
+  route_name: otll.settings_form
+  weight: 10

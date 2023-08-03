@@ -1,0 +1,6 @@
+custom_form.settings_form:
+  title: 'custom form'
+  description: 'use this to enter details of user .'
+  parent: system.admin_config_system
+  route_name: custom_form.settings_form
+  weight: 10

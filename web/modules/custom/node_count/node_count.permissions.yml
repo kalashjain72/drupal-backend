@@ -1,0 +1,4 @@
+administer node_count configuration:
+  title: 'Administer node_count configuration'
+  description: 'Optional description.'
+  restrict access: true
