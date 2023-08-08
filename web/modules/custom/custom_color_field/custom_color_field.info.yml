@@ -1,0 +1,5 @@
+name: custom_color_field
+type: module
+description: to create a field to accept rgb colour
+package: Custom
+core_version_requirement: ^9 || ^10

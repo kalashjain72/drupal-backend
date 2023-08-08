@@ -1,0 +1,7 @@
+block_form.settings_form:
+  path: '/admin/config/system/block-form'
+  defaults:
+    _title: 'block form settings'
+    _form: 'Drupal\block_form\Form\SettingsForm'
+  requirements:
+    _permission: 'administer block_form configuration'

@@ -1,0 +1,6 @@
+block_form.settings_form:
+  title: 'block form'
+  description: 'Configure block form.'
+  parent: system.admin_config_system
+  route_name: block_form.settings_form
+  weight: 10

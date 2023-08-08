@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements block_form_theme().
+ */
+function block_form_theme($existing, $type, $theme, $path) {
+  return [
+    'custom_form_data_block' => [
+      'variables' => ['content' => []]
+    ],
+  ];
+}

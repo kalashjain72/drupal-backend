@@ -1,0 +1,17 @@
+routing_system.build:
+  path: '/routing-system'
+  defaults:
+    _title: 'routing system'
+    _controller: '\Drupal\routing_system\Controller\RoutingSystemController::build'
+  requirements:
+    _role: 'content editor + administrator'
+    _permission: 'access content'
+
+demo_route.dynamic_parameter:
+  path: '/campaign/value/{value}'
+  defaults:
+    _title: 'Fetching Dynamic parameter'
+    _controller: '\Drupal\routing_system\Controller\RoutingSystemController::dynamicParameter'
+  requirements:
+    _role: 'content editor + administrator'
+    _permission: 'access content'
